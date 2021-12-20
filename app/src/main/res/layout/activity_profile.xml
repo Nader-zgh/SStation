@@ -71,6 +71,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/ss"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
                 android:text="monta@gmail.com"
@@ -94,6 +95,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
+                android:fontFamily="@font/ss"
                 android:text="+216 22 333 555"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -103,7 +105,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:orientation="horizontal"
-            android:paddingLeft="25dp">
+            android:paddingLeft="20dp">
 
             <ImageView
                 android:layout_width="40dp"
@@ -115,6 +117,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
+                android:fontFamily="@font/ss"
                 android:text="Taches a faire"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -137,6 +140,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
+                android:fontFamily="@font/ss"
                 android:text="afficher les station"
                 android:textStyle="bold" />
         </LinearLayout>
