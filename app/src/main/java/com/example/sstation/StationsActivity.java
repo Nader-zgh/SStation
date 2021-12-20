@@ -36,7 +36,7 @@ ProgressBar progress_bar,progress_bar2;
 
 
             progress_bar.setMax(50);
-            progress_bar.setMin(10);
+            progress_bar.setMin(-10);
             progress_bar.setProgress(Integer.valueOf(Temp));
             temp.setText(Temp+"°C");
         progress_bar2.setMax(100);
