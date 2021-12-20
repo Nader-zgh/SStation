@@ -12,6 +12,15 @@
         android:scaleType="centerCrop"
         android:src="@drawable/background_image_one_signup" />
 
+    <ImageView
+        android:layout_width="177dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ss1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

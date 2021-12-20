@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/copie"
-        android:layout_marginBottom="308dp"/>
+        android:layout_marginBottom="280dp"/>
 
     <TextView
         android:layout_width="wrap_content"
