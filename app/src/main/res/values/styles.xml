@@ -14,7 +14,7 @@
         <item name="android:windowFullscreen">true</item>
     </style>
     <style name="edittext" parent="TextAppearance.AppCompat.Button">
-<item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:inputType">textEmailAddress</item>
@@ -32,4 +32,148 @@
         <item name="android:indeterminateOnly">false</item>
         <item name="android:progressDrawable">@drawable/circle</item>
     </style>
+    <style name="intro">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name ="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name ="android:textSize">30dp</item>
+        <item name="android:fontFamily">@font/ss</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name ="layout_constraintStart_toStartOf">parent</item>
+    </style>
+    <style name="introimg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:layout_marginTop">100dp</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+
+    <style name="mainimgv1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="mainimgv2">
+        <item name="android:layout_width">191dp</item>
+        <item name="android:layout_height">154dp</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+
+    <style name="maintextv">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">116dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintHorizontal_bias">0.174</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">@+id/imageView</item>
+    </style>
+
+
+    <style name="linearstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+    <style name="relastyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="butstyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginEnd">18dp</item>
+        <item name="android:backgroundTint">#254D7AD5</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:tint">#302D2D</item>
+        <item name="elevation">0dp</item>
+        <item name="fabCustomSize">80dp</item>
+        <item name="rippleColor">#403939</item>
+
+
+
+    </style>
+    <style name="TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:background">@drawable/draw</item>
+        <item name="android:text">login</item>
+        <item name="android:textColor">#191919</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+
+    <style name="img">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">45dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/draw</item>
+    </style>
+
+
+    <style name="txtimg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:text">Ahmed Jabari</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="textprofile">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/ss</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textStyle">bold</item>
+
+
+    </style>
+
+    <style name="botton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:backgroundTint">#5C7CC5</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:src">@drawable/round_arrow_forward_24</item>
+        <item name="android:tint">@android:color/white</item>
+
+    </style>
+
+
+
 </resources>
+
+

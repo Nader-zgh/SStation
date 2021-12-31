@@ -1,6 +1,7 @@
 package com.example.sstation;
 
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.os.Build;
 import android.os.Bundle;
 import android.widget.ProgressBar;
@@ -9,11 +10,15 @@ import android.widget.TextView;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.List;
+
 public class StationsActivity extends AppCompatActivity {
     private String Temp,hum,desc,name;
 
 TextView temp,Hum,NAME,DESC;
 ProgressBar progress_bar,progress_bar2;
+List<String> stringList;
+
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,13 +37,10 @@ ProgressBar progress_bar,progress_bar2;
         NAME=findViewById(R.id.textView4);
         DESC.setText(desc);
         NAME.setText("Station\n "+name);
-
-
-
-            progress_bar.setMax(50);
-            progress_bar.setMin(-10);
-            progress_bar.setProgress(Integer.valueOf(Temp));
-            temp.setText(Temp+"°C");
+        progress_bar.setMax(50);
+        progress_bar.setMin(-10);
+        progress_bar.setProgress(Integer.valueOf(Temp));
+        temp.setText(Temp+"°C");
         progress_bar2.setMax(100);
         progress_bar2.setMin(0);
         progress_bar2.setProgress(Integer.valueOf(hum));

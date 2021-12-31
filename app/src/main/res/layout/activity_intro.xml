@@ -10,25 +10,22 @@
 
     <ImageView
         android:id="@+id/ssimg"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
+        style="@style/introimg"
+
         android:src="@drawable/ss1"
-        android:layout_marginTop="100dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+
         android:id="@+id/sstxt"
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/intro"
         android:text="@string/app_name"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        android:fontFamily="@font/ss"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ssimg" />
+
+
+
+
+        app:layout_constraintTop_toBottomOf="@+id/ssimg"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

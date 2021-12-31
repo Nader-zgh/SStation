@@ -27,23 +27,10 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="45dp"
-                android:padding="10dp"
-                android:background="@drawable/draw"
+                style="@style/img"
                 android:src="@drawable/bouhmid" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Ahmed Jabari"
-                android:textColor="#fff"
-                android:textSize="21sp"
-                android:textStyle="bold" />
+            <TextView style="@style/txtimg" />
         </LinearLayout>
     </RelativeLayout>
 
@@ -69,13 +56,10 @@
                 android:src="@drawable/email" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/ss"
-                android:layout_gravity="center_vertical"
-                android:paddingLeft="20dp"
+
+                style="@style/textprofile"
                 android:text="monta@gmail.com"
-                android:textStyle="bold" />
+                />
         </LinearLayout>
 
         <LinearLayout
@@ -91,13 +75,9 @@
                 android:src="@drawable/phone" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:paddingLeft="20dp"
-                android:fontFamily="@font/ss"
+                style="@style/textprofile"
                 android:text="+216 22 333 555"
-                android:textStyle="bold" />
+                />
         </LinearLayout>
 
         <LinearLayout
@@ -114,13 +94,9 @@
                 android:src="@drawable/electricien" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:paddingLeft="20dp"
-                android:fontFamily="@font/ss"
+                style="@style/textprofile"
                 android:text="Taches a faire"
-                android:textStyle="bold" />
+                />
         </LinearLayout>
 
         <LinearLayout
@@ -137,13 +113,9 @@
                 android:src="@drawable/s1" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:paddingLeft="20dp"
-                android:fontFamily="@font/ss"
+                style="@style/textprofile"
                 android:text="afficher les station"
-                android:textStyle="bold" />
+                />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

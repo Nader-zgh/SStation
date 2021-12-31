@@ -38,6 +38,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.StationViewHolder> {
         holder.name.setText("Station "+station.getName());
         holder.Temp.setText("Temp:"+station.getTemp()+" °C");
         holder.hum.setText("Hum: "+station.getHum()+" %");
+        if ( Integer. parseInt(station.getHum()) >70){
+            holder.itemView.setBackgroundColor(0xFFff6363); }
         holder.more.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -7,46 +7,27 @@
     tools:context=".MainActivity">
 
     <ImageView
+        style="@style/mainimgv1"
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
+
         android:src="@drawable/background_image_one_signin" />
 
     <ImageView
-        android:layout_width="191dp"
-        android:layout_height="154dp"
-        android:layout_marginTop="60dp"
+        style="@style/mainimgv2"
         android:src="@drawable/ss1"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="parent" />
+        />
 
     <TextView
+        style="@style/maintextv"
         android:id="@+id/textView2"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="116dp"
-        android:layout_marginEnd="8dp"
         android:text="My Smart\nStation"
-        android:textColor="@android:color/white"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.174"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom"
-        android:orientation="vertical"
+        style="@style/linearstyle"
         tools:layout_editor_absoluteX="51dp"
         tools:layout_editor_absoluteY="102dp">
-
-
         <EditText
             android:id="@+id/email"
             style="@style/edittext"
@@ -64,40 +45,19 @@
             />
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp">
+            style="@style/relastyle"
+            >
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/login"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
+                style="@style/butstyle"
                 android:layout_centerInParent="true"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="18dp"
-                android:layout_marginBottom="20dp"
-                android:backgroundTint="#254D7AD5"
-                android:elevation="0dp"
                 android:src="@drawable/round_arrow_forward_24"
-                android:tint="#302D2D"
-                app:elevation="0dp"
-                app:fabCustomSize="80dp"
-                app:rippleColor="#403939"
                 tools:ignore="RelativeOverlap,SpeakableTextPresentCheck" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_centerInParent="true"
-                android:layout_marginStart="30dp"
-                android:background="@drawable/draw"
-                android:padding="15dp"
-                android:text="Login"
-                android:textColor="#191919"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                style="@style/TextView"
+                android:layout_centerInParent="true" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -107,21 +67,13 @@
             android:layout_marginBottom="50dp">
 
             <TextView
+                style="@style/TextView"
                 android:id="@+id/register"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_centerInParent="true"
-                android:layout_marginStart="30dp"
-                android:background="@drawable/draw"
-                android:onClick="OpenSignupPage"
-                android:padding="15dp"
                 android:text="Sign up"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                tools:ignore="OnClick" />
+                />
 
-            <TextView
+                 <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
